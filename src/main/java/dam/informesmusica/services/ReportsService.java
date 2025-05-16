@@ -26,6 +26,9 @@ public class ReportsService {
                 throw new JRException("El informe no se encontró: " + reportName);
             }
             JasperPrint jasperPrint = JasperFillManager.fillReport(reportStream, parms, connection);
+            if(jasperPrint.getPages().isEmpty()) {
+                return null;
+            }
             return JasperExportManager.exportReportToPdf(jasperPrint);
         }catch (SQLException e) {
             System.err.println("Error al obtener conexión desde el DataSource");
