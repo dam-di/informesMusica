@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+    <fontFamily name="Musicals">
+        <!-- Normal Arial Font -->
+        <normal><![CDATA[fonts/Musicals/Musicals.ttf]]></normal> <!-- location of the nornal font on resource folder -->
+        <!-- Is font is embedded in PDF -->
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
+
+    <fontFamily name="MUSICELE">
+        <!-- Normal Arial Font -->
+        <normal><![CDATA[fonts/MUSICELE/MUSICELE.TTF]]></normal> <!-- location of the nornal font on resource folder -->
+        <!-- Is font is embedded in PDF -->
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
+
+    <fontFamily name="MusicForYourEars">
+        <!-- Normal Arial Font -->
+        <normal><![CDATA[fonts/MusicForYourEars/MusicForYourEars.ttf]]></normal> <!-- location of the nornal font on resource folder -->
+        <!-- Is font is embedded in PDF -->
+        <pdfEmbedded><![CDATA[false]]></pdfEmbedded>
+    </fontFamily>
+
+
+</fontFamilies>
